@@ -1,0 +1,13 @@
+body{
+    front-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1{
+    front-size: 28pt;
+    text align:center;
+    margin-bottom: 20px;
+}
+.block{
+    background-color: yellow;
+    margin-bottom: 20px;
+}

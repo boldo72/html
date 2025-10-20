@@ -1,0 +1,67 @@
+
+.interacao {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.lista {
+    padding: 0.75rem;
+    background-color: #4169e1;
+    color: #00ffff;
+    font-weight: 500;
+
+}
+.lista li:nth-child(1) {
+    background-color: rgba(214, 203, 203, 0.4);
+   font-size:18pt;
+    color: magenta;
+}
+
+.botao {
+    background-color: #000000;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 999px;
+    color: #059900c7;
+    font-weight: 900;
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+
+}
+
+.botao:hover {
+    background-color: #44f03198;
+    color: #000000;
+    transition: 0,5s;
+    box-shadow: 0 8px 8px;
+
+}
+
+.texto {
+    width: 80%;
+    margin-left: 40px;
+}
+
+.texto::first-letter {
+    font-size: 2,5rem;
+    color: royalblue;
+    font-weight:bold;
+
+}
+
+
+.texto::first-letter {
+    text-transform: uppercase;
+}
+
+::selection {
+    background-color: #e7df08;
+    color: #000000;
+}
+
+:root {
+    --verde : #000000;
+
+}

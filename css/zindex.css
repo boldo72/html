@@ -1,0 +1,49 @@
+div{/*seletor*/
+    border: 5px solid black;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 200px;
+    padding:20px;
+    position: fixed;
+}
+
+.box1{
+    background-color: blueviolet;
+}
+
+.box2{
+    background-color: lightseagreen;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+
+}
+
+.box3{
+    background-color: magenta;
+    top: 100px;
+    left: 200px;
+    
+}
+
+h1{
+    
+
+  font-family: "Bitcount Single Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
+
+}
