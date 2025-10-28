@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação do DOM</title>
+</head>
+<body>
+
+    <div id="container"></div>
+
+    <script>
+        // 1) Variável com meu nome + H1 com concatenação
+        const meuNome = "boldo";
+        const h1 = document.createElement("h1");
+        h1.textContent = `Bem Vindo ao DOM ${meuNome}`;
+        document.getElementById("container").appendChild(h1);
+
+        // 2) Criar parágrafo com texto concatenado
+        const paragrafo = document.createElement("p");
+        paragrafo.textContent = `Olá! Eu sou o ${meuNome}, seu assistente de IA construído pela xAI. Este parágrafo foi criado dinamicamente com JavaScript.`;
+        document.getElementById("container").appendChild(paragrafo);
+
+        // Criar uma div para alterar estilos
+        const divEstilo = document.createElement("div");
+        divEstilo.id = "minhaDiv";
+        divEstilo.innerHTML = `<strong>Esta é uma div com estilo personalizado via JS!</strong>`;
+        document.getElementById("container").appendChild(divEstilo);
+
+        // 3) Alterar cor de fundo da página e da div
+        document.body.style.backgroundColor = "lightcyan"; // Fundo ciano claro
+        divEstilo.style.backgroundColor = "orange";     // Fundo laranja claro
+
+        // 4) Alterar estilos dos textos via JS
+        h1.style.color = "black";           // Verde escuro
+        h1.style.fontSize = "2.5rem";
+        h1.style.textAlign = "center";
+        h1.style.textShadow = "1px 1px 3px rgba(0,0,0,0.2)";
+
+        paragrafo.style.color = "black";     // Vermelho escuro
+        paragrafo.style.fontSize = "1.1rem";
+        paragrafo.style.marginTop = "15px";
+
+        divEstilo.style.color = "black";     // Azul escuro
+        divEstilo.style.fontWeight = "bold";
+        divEstilo.style.textAlign = "center";
+        divEstilo.style.boxShadow = "0 4px 8px rgba(0,0,0,0.1)";
+    </script>
+
+</body>
+</html>
